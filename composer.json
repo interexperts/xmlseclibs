@@ -1,13 +1,15 @@
 {
-    "name": "simplesamlphp/xmlseclibs",
-    "description": "A PHP library for XML Security",
+    "name": "interexperts/xmlseclibs",
+    "description": "PHP library for XML Security. Fork of Rob Richards' library, modified namespace behavior",
     "authors": [
-        { "name": "Rob Richards" }
+        { "name": "Rob Richards" },
+        { "name": "InterExperts",
+          "homepage": "http://www.interexperts.nl/" }
     ],
     "license": "BSD-3-Clause",
     "type": "library",
     "keywords": ["xml", "xmlsec", "security", "signing", "signature", "x.509", "certificate"],
-    "homepage": "http://code.google.com/p/xmlseclibs/",
+    "homepage": "https://github.com/interexperts/xmlseclibs",
     "autoload": {
         "files": ["xmlseclibs.php"]
     },
@@ -15,7 +17,6 @@
         "ext/openssl": "",
         "ext/mcrypt": ""
     },
-    "time": "2013-06-19",
     "replace": {
         "cdatazone/xmlseclibs": "self.version",
         "fr3d/xmlseclibs": "self.version",
