@@ -1,5 +1,10 @@
 xmlseclibs.php
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+19, Feb 2015, 1.3.3
+Features:
+- Changed XML namespace behavior: now only adds the namespace to the container
+  <Signature> tag, removed 'ds:' from other tags
+
 19, Jun 2013, 1.3.1
 Features:
 - return encrypted node from XMLSecEnc::encryptNode() when replace is set to 
